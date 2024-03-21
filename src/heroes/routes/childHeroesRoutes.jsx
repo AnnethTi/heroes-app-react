@@ -23,8 +23,8 @@ export const childHeroesRoutes = [
         element: <HeroPage/>
     },
     {
-        index: true,
-        element: <MarvelPage/>
+        path: "/*"    ,
+        element: <Navigate to={"/marvel"} />,
       
     }
 
