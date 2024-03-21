@@ -11,7 +11,7 @@ export const LoginPage = () => {
 
     const lasPath = localStorage.getItem('lastPath') || '/marvel';
     
-    login('Anneth');
+    login('Anneth Tinajero');
 
     
     navigate(lasPath, {
