@@ -17,7 +17,7 @@ export const AuthProvider = ({children}) => {
 
     const [authState, dispatch] = useReducer(authReducer, {}, init)
 
-    
+    console.log('authState:', authState)
 
     const login = async (name = '') => {
 
